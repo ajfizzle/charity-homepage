@@ -3,3 +3,13 @@
 
 # Ada Library Information
 *.ali
+
+
+# Google App Engine generated folder
+appengine-generated/
+
+# exclude node_modules directory
+node_modules/
+
+# exclude .env file
+.env

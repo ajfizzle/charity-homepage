@@ -1,0 +1,30 @@
+/charity-organization
+│
+├── /backend
+│   ├── /config
+│   │   └── db.js              # Database connection
+│   ├── /controllers
+│   │   └── donationController.js # Donation logic
+│   ├── /models
+│   │   └── Donation.js        # Donation model schema
+│   ├── /routes
+│   │   └── donationRoutes.js  # API routes for donations
+│   ├── /middleware
+│   │   └── errorHandler.js    # Error handling middleware
+│   ├── server.js              # Main backend file
+│   └── package.json           # Backend dependencies
+│
+├── /frontend
+│   ├── /src
+│   │   ├── /components
+│   │   │   └── DonationForm.js   # Donation form component
+│   │   ├── /pages
+│   │   │   └── HomePage.js       # Homepage to show donation form
+│   │   ├── /utils
+│   │   │   └── api.js            # API for calling donation routes
+│   │   ├── App.js                # Main App file
+│   │   └── index.js              # Entry point for React
+│   ├── package.json              # Frontend dependencies
+│
+├── .env                          # Environment variables
+└── README.md                     # Project documentation
